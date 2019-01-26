@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1023px){
+	 .card{
+	 	padding: 40px;
+	 	max-width: 640px;
+	 	margin: auto;
+	 	background-color: #fff;
+	 	box-shadow: 0px 5px 5px #909090;
+	 	border-radius: 10px;
+	 }
+
+	 .quote-card{
+	 	margin: 20px auto;
+	 	background-color: transparent;
+	 	box-shadow: none;
+	 }
+
+	 .stand-alone{margin-top: 20px;}
+
+	 .project-description { padding: 20px; }
+
+	 .single-project-card{
+	 	margin-right: 10px;
+	 	min-height: 400px;
+	 }
+
+}
+
+@media only screen and (max-width: 767px){
+	.single-project-card{
+	 	margin-right: 10px;
+	 	min-height: 350px;
+	 }
+
+	 .input-group{width: 100%;}
+
+	 .card{max-width: 480px;}
+
+	 .project-description { padding: 10px; }
+}
+
+@media only screen and (max-width: 480px){
+	.single-project-card{padding: 0;}
+	
+	.project-description p{font-size: 90%;}
+}
